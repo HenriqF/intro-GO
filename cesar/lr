@@ -1,0 +1,4 @@
+go build main.go
+.\main porra 5
+.\main utwwf -5
+rm main
