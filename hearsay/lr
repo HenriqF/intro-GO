@@ -1,0 +1,3 @@
+go build hearsay.go
+.\hearsay.exe
+rm hearsay.exe
