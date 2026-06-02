@@ -1,0 +1,17 @@
+[build]
+    time_start: build
+    run: go build apiteste.go
+    time_end: build
+    end
+    
+[cleanup]
+    run: del apiteste.exe
+    end 
+
+[main]
+    goto: build
+    silent: 0
+    run: .\apiteste
+    silent: 1
+    goto: cleanup
+    end
